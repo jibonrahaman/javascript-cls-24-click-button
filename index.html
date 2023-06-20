@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+   <!-- <input type="text"> -->
+   <!-- <input type="text" class="input2"> -->
+   <!-- <input type="text" class="input3"> -->
+   <!-- <button type="button">BABY</button>
+   <h1 class="demo"></h1> -->
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0px 25%;
+}
+h3{
+  margin: 0px 25%; 
+  color: #f2f2f2;
+}
+body{
+  background:rgb(22, 2, 108);
+  padding-top: 14%;
+}
+button{
+  padding: 10px 30px;
+  background: black;
+color: #ccc;
+  font-weight: 700;
+ border: black;
+  border-radius: 10px;
+ margin-top: 10px;
+  text-align: center;
+  transition: .5s;
+ 
+}
+button:hover{
+  background: whitesmoke;
+  color: black;
+  border: 1px solid black;
+}
+</style>
+<body>
+
+<h3>Using CSS to style an HTML Form</h3>
+
+<div >
+  <form action="/action_page.php">
+    <label for="fname">Enter Your Age</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+   
+
+    <label for="lname">Enter Your Sallery</label>
+    <input type="text" class="input2" id ="lname" name="lastname" placeholder="Your last name..">
+   
+    <label for="lname">Enter Your Home</label>
+    <input type="text" class="input3" id ="lname" name="lastname" placeholder="Your last name..">
+   
+    <button type="button">BABY</button>
+    <h1 class="demo"></h1>
+    
+
+  </form>
+</div>
+
+
+
+
+
+     <script src="js/index.js"></script>
+</body>
+</html>
+
+
